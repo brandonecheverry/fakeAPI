@@ -53,27 +53,27 @@ export default class UserCrud extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>Name</label>
+              <label>Nombre</label>
               <input
                 type="text"
                 className="form-control"
                 name="name"
                 value={this.state.user.name}
                 onChange={e => this.updateField(e)}
-                placeholder="Type the name..."
+                placeholder="Escribe El Nombre..."
               />
             </div>
           </div>
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>Email</label>
+              <label>Correo</label>
               <input
                 type="text"
                 className="form-control"
                 name="email"
                 value={this.state.user.email}
                 onChange={e => this.updateField(e)}
-                placeholder="Type the email..."
+                placeholder="Escribe El Email..."
               />
             </div>
           </div>
@@ -82,13 +82,13 @@ export default class UserCrud extends Component {
         <div className="row">
           <div className="col-12 d-flex justify-content-end">
             <button className="btn btn-primary" onClick={e => this.save(e)}>
-              Save
+              Guardar
             </button>
             <button
               className="btn btn-secondary ml-2"
               onClick={e => this.clear(e)}
             >
-              Cancel
+              Cancelar
             </button>
           </div>
         </div>
@@ -112,9 +112,9 @@ export default class UserCrud extends Component {
         <thead>
           <tr>
             <th>Id</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Actions</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Accion</th>
           </tr>
         </thead>
         <tbody>{this.renderRows()}</tbody>
