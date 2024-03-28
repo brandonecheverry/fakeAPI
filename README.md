@@ -1,20 +1,20 @@
 # Backend
 $ cd backend
 
-# Install dependencies
+# Instalar Dependencias
 $ npm install
 
-# Run backend
+# Correr backend
 $ npm start
 
 
 # Frontend
 $ cd frontend
 
-# Install dependencies
+# Instalar Dependencias
 $ npm install
 
-# Run frontend
+# Correr frontend
 $ npm start
 
 Node Version v16.20.2
